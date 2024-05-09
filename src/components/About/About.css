@@ -230,14 +230,7 @@
     display: none;
   }
 }
-@media (max-width: 800px) {
-  .contact .contact-form .col-6,
-  .contact .contact-info-item,
-  .portfolio .portfolio-item,
-  .service .service-item,
-  .about{
-    flex-direction: column;
-  }
+
 @media (max-width: 767px) {
   .contact .contact-form .col-6,
   .contact .contact-info-item,

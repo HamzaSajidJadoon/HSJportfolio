@@ -78,73 +78,12 @@ function About() {
                        compelling design. I am committed to transforming innovative concepts into sophisticated,
                         high-performance applications and websites.
                     </p>
-                    {/* <p>
-                      A professional Front-End Web Developer, responsibly
-                      creating website designs by using coding and markup
-                      languages such as HTML5, CSS3, Bootstrap5, SASS JavaScript
-                      & Reactjs also hands on experience on wordpress. Now
-                      working at
-                      <span>
-                        <a href="#"> OCTALOOP TECHNOLOGIES</a>
-                      </span>
-                      , I am applying my expertise in designing user
-                      interactions on the web application.
-                    </p> */}
+                    
                   </div>
                 </div>
                 {/* <!--About Personal Info and Skills Section  --> */}
                 <div className="row">
-                  <div className="personal-info padd-15">
-                    <div className="row">
-                      <div className="info-item padd-15">
-                        <p>
-                          Birthday : <span>9 Jan 1997</span>
-                        </p>
-                      </div>
-                      <div className="info-item padd-15">
-                        {/* <p>
-                          Age : <span>23</span>
-                        </p> */}
-                      </div>
-                      {/* <div className="info-item padd-15">
-                        <p>
-                          Website :
-                          <span>
-                            <a
-                              href="https://github.com/hamzasajidjadoon"
-                              target="_blank"
-                            >
-                              https://github.com/hamzasajidjadoon
-                            </a>
-                          </span>
-                        </p>
-                      </div> */}
-                      <div className="info-item padd-15">
-                        <p>
-                          Email :<span>hamzasajidjadoon1997@gmail.com</span>
-                        </p>
-                      </div>
-                      <div className="info-item padd-15">
-                        <p>
-                          Degree : <span>BSCS</span>
-                        </p>
-                      </div>
-                      <div className="info-item padd-15">
-                        <p>
-                          Phone : <span>Dubai: +971581284866</span> <span>Pakistan: +923219595380</span>
-                        </p>
-                      </div>
-                      <div className="info-item padd-15">
-                        <p>
-                          City : <span>Islamabad</span>
-                        </p>
-                      </div>
-                      <div className="info-item padd-15">
-                        <p>
-                          Remote Work : <span>Available</span>
-                        </p>
-                      </div>
-                    </div>
+                  <div className="personal-info padd-15"> 
                     <div className="row">
                       <div className="buttons padd-15">
                         <Link to="/contactPage" className="btn hire-me">
