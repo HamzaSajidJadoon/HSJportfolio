@@ -106,7 +106,7 @@ function About() {
                           Age : <span>23</span>
                         </p> */}
                       </div>
-                      <div className="info-item padd-15">
+                      {/* <div className="info-item padd-15">
                         <p>
                           Website :
                           <span>
@@ -118,7 +118,7 @@ function About() {
                             </a>
                           </span>
                         </p>
-                      </div>
+                      </div> */}
                       <div className="info-item padd-15">
                         <p>
                           Email :<span>hamzasajidjadoon1997@gmail.com</span>
