@@ -1,0 +1,136 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  color: var(--text-black-900);
+}
+.home .home-info {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+h3.hello {
+  font-size: 28px;
+  margin: 15px 0;
+  
+}
+h2.hello span {
+  font-family: "Clicker Script", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--skin-color);
+}
+
+h3.my-profession {
+  font-size: 34px;
+  margin: 15px 0;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.typing {
+  color: var(--skin-color);
+}
+.home .home-img {
+  flex: 0 0 40%;
+  max-width: 40%;
+  text-align: center;
+  position: relative;
+}
+.home .home-img::after {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  right: 20px;
+  bottom: -30px;
+  border-bottom: 10px solid var(--skin-color);
+  border-right: 10px solid var(--skin-color);
+}
+.home .home-img::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 20px;
+  top: -40px;
+  border-top: 10px solid var(--skin-color);
+  border-left: 10px solid var(--skin-color);
+}
+.home .home-img img {
+  height: 400px;
+}
+.home-info p {
+  margin-bottom: 70px;
+  font-size: 18px;
+  color: var(--text-black-700);
+
+}
+
+.home-info p span {
+  font-size: 20px;
+  color: var(--text-black-700);
+  font-weight: 600;
+  
+}
+.home-info p a {
+  font-size: 20px;
+  color: var(--skin-color);
+  font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+  .aside.open {
+    left: 0;
+  }
+  /* .main-content {
+    padding-left: 0;
+  } */
+  .aside .nav-toggler {
+    display: flex;
+    left: 30px;
+    /* position: static; */
+  }
+  .aside .nav-toggler.open {
+    left: 300px;
+  }
+  .aside .nav-toggler.open span {
+    background-color: transparent;
+  }
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+  .section {
+    left: 0;
+  }
+  .section.open {
+    left: 270px;
+  }
+}
+@media (max-width: 991px) {
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .service .service-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .contact .contact-form .col-6,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .service .service-item,
+  .about .about-content .education,
+  .about .about-content .experience,
+  .about .about-content .skills,
+  .about .about-content .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

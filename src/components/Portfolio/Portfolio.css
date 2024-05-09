@@ -1,0 +1,150 @@
+.portfolio .container {
+  padding-bottom: 40px;
+}
+.portfolio .portfolio-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+.portfolio .portfolio-heading h2 {
+  color: var(--text-black-900);
+  font-weight: 500;
+}
+.portfolio .personal-item {
+  /* flex: 0 0 33.33%;
+  max-width: 33.33%; */
+  margin-bottom: 30px;
+}
+.portfolio .portfolio-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.portfolio .portfolio-item-inner {
+  border: 6px solid var(--bg-black-100);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio .portfolio-item .portfolio-item-inner .portfolio-img img {
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  .aside.open {
+    left: 0;
+  }
+  /* .main-content {
+    padding-left: 0;
+  } */
+  .aside .nav-toggler {
+    display: flex;
+    left: 30px;
+    /* position: static; */
+  }
+  .aside .nav-toggler.open {
+    left: 300px;
+  }
+  .aside .nav-toggler.open span {
+    background-color: transparent;
+  }
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+  .section {
+    left: 0;
+  }
+  .section.open {
+    left: 270px;
+  }
+}
+@media (max-width: 991px) {
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .service .service-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home .home-img {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .contact .contact-form .col-6,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .service .service-item,
+  .about .about-content .education,
+  .about .about-content .experience,
+  .about .about-content .skills,
+  .about .about-content .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* --------------------------------- Card flip */
+.live-source {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
+  display: none;
+}
+.live-source a {
+  color: #fff;
+  background: #ec1839;
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.live-source a:hover {
+  color: #ec1839;
+  border: 1px solid #ec1839;
+  background: transparent;
+  outline: none;
+}
+.portfolio .portfolio-item:hover .live-source {
+  display: flex;
+}
+
+.portfolio-item-inner .layer {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  background-color: #ec1839;
+  opacity: 0.6;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  transition: all 0.4s linear;
+}
+.portfolio-item-inner:hover .layer {
+  transform: translateY(0%);
+}
+
+.layer .mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layer .mid h2 {
+  color: rgb(255, 255, 255);
+}
