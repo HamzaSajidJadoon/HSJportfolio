@@ -5,25 +5,25 @@ function Portfolio() {
   const projects = [
     {
       id: 0,
-      thumbnail: "Images/dstreakpic.JPG",
+      thumbnail: "images/dstreakpic.JPG",
       link: "https://play.google.com/store/apps/details?id=com.drivestreak&hl=as&gl=US",
       name: "DriveStreak",
     },
     {
       id: 1,
-      thumbnail: "Images/ScorpionYachtImage.JPG",
+      thumbnail: "images/ScorpionYachtImage.JPG",
       link: "https://play.google.com/store/apps/details?id=com.scorpionyacht&hl=as&gl=US",
       name: "Scorpion Yacht",
     },
     {
       id: 2,
-      thumbnail: "Images/SupervetImage.JPG",
+      thumbnail: "images/SupervetImage.JPG",
       link: "https://play.google.com/store/apps/details?id=com.myall&hl=as&gl=US",
       name: "Supervet",
     },
     {
       id: 3,
-      thumbnail: "Images/NexgenImage.JPG",
+      thumbnail: "images/NexgenImage.JPG",
       link: "",
       name: "Nexgen",
     },
@@ -53,7 +53,7 @@ function Portfolio() {
                   <div className="portfolio-item padd-15 ">
                     <div className="portfolio-item-inner shadow-dark ">
                       <div className="portfolio-img ">
-                        {/* <img src="\Images\pandamax.PNG" alt="" /> */}
+                        {/* <img src="\images\pandamax.PNG" alt="" /> */}
                         <img src={item.thumbnail} alt="" />
                       </div>
                       <div className="layer">
