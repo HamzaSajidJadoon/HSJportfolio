@@ -37,7 +37,9 @@ innovative ideas into elegantly designed, high performance applications and webs
               </a>
             </div>
             <div className="home-img padd-15">
-              <img src="\Images\mypic3.PNG" alt="pic" srcset="" />
+              {/* <img src="\Images\mypic3.PNG" alt="pic" srcset="" /> */}
+              <img src="/Images/mypic3.PNG" alt="pic" srcset="" />
+
             </div>
           </div>
         </div>
