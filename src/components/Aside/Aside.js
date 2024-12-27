@@ -12,7 +12,7 @@ export default function Aside() {
       <div className="aside " id={hidden ? "aside-bar" : "aside-bar-open"}>
         <div className="logo">
           <a href="#">
-            <span>H</span>amza
+            <span>H</span>amza 
           </a>
         </div>
         <div className="nav-toggler" onClick={handleToggle}>

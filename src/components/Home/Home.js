@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+
 function Home() {
   return (
     <div>
@@ -10,9 +11,11 @@ function Home() {
               {/* <h3 className="hello">
                 Hello, my name is <span className="name">Hamza Sajid Jadoon </span>
               </h3> */}
-              <h3 className="my-profession">
-     <span className="hello">Senior Mobile App & Web App Developer | React Native | React | MERN Stack</span>
-              </h3>
+<h3 className="my-profession">
+  <span className="hello">Mobile & Web App Developer</span><br />
+  <span className="hello">React Native | React | MERN Stack</span>
+</h3>
+
               <p>
               Accomplished mobile app developer with nearly
 3 years of experience in React Native,
@@ -32,12 +35,12 @@ innovative ideas into elegantly designed, high performance applications and webs
                   OCTALOOP TECHNOLOGIES
                 </a> */}
               </p>
-              <a href="\HamzaSajidJadoonCV.pdf" className="btn hire-me">
+              <a href="\HamzaResume.pdf" className="btn hire-me">
                 Download CV
               </a>
             </div>
             <div className="home-img padd-15">
-              <img src="/images/mypic3.PNG" alt="pic" srcset="" />
+            <img src="/images/heroThree.png" alt="pic" />
             </div>
           </div>
         </div>

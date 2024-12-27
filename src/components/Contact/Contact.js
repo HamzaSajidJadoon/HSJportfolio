@@ -22,8 +22,7 @@ function Contact() {
                 <div class="icon">
                   <i class="fa fa-phone"> </i>
                 </div>
-                <h4>Call Me On</h4>
-                <p>Dubai: +971581284866</p>
+                <h4>Call Me</h4>
                 <p>Pakistan: +92 3219595380</p>
               </div>
               {/* <!-- =======Contact Info Item End --> */}
@@ -36,7 +35,7 @@ function Contact() {
                 </div>
                 <h4>LinkedIn</h4>
                 <p>
-                  <a href="https://www.linkedin.com/in/hamzasajidjadoon/" target="_blank">LinkedIn Profile</a>
+                  <a href="https://www.linkedin.com/in/hamzasajidjadoon/" target="_blank">My LinkedIn Profile</a>
                 </p>
               </div>
               {/* <!-- =======Contact Info Item End --> */}
@@ -56,10 +55,10 @@ function Contact() {
                 <div class="icon">
                   <i class="fa fa-globe-europe"> </i>
                 </div>
-                <h4>GitHub Profile</h4>
+                <h4>GitHub</h4>
                 <p>
                   <a href="https://github.com/hamzasajidjadoon" target="_blank">
-                    GitHub
+                   My GitHub Profile
                   </a>
                 </p>
               </div>
@@ -135,6 +134,20 @@ function Contact() {
                       <button type="submit" class="btn">
                         Send Message
                       </button>
+
+                       {/* Send Email Button */}
+                {/* <div className="row">
+                  <div className="form-item col-12 padd-15">
+                    <div className="form-group">
+                      <a
+                        href="mailto:hamzasajidjadoon1997@gmail.com?subject=Contact%20Message&body=Hello%20Hamza,%20I%20have%20a%20question%20for%20you."
+                        className="btn"
+                      >
+                        Send Message
+                      </a>
+                    </div>
+                  </div>
+                </div> */}
                     </div>
                   </div>
                 </div>

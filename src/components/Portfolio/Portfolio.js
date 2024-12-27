@@ -23,7 +23,7 @@ function Portfolio() {
     },
     {
       id: 3,
-      thumbnail: "images/NexgenImage.JPG",
+      thumbnail: "/images/NexgenImage.JPG",
       link: "",
       name: "Nexgen",
     },
@@ -32,7 +32,7 @@ function Portfolio() {
 
   return (
     <div>
-      <div classNameName="main-content">
+      <div className="main-content">
         <section className="portfolio active section" id="Portfolio">
           <div className="container">
             <div className="row">

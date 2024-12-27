@@ -32,6 +32,18 @@ function About() {
   ];
   const expSet = [
     {
+      CompanyName: "Catchy Apps",
+      myRole: "React Native Developer",
+      startDate: "June 2024",
+      now: "Dec 2024",
+    },
+    {
+      CompanyName: "Catchy Apps",
+      myRole: "React Native Developer",
+      startDate: "June 2024",
+      now: "",
+    },
+    {
       CompanyName: "Octaloop Technologies",
       myRole: "Lead React Native Developer",
       startDate: "Sep 2023",
