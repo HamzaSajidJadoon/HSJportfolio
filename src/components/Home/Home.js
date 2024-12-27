@@ -41,7 +41,7 @@ innovative ideas into elegantly designed, high performance applications and webs
             </div>
             <div className="home-img padd-15">
             {/* <img src="/images/heroThree.png" alt="pic" /> */}
-            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGrrZUv4xt0lQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712923876196?e=1740614400&v=beta&t=rrKte_swNmlVZCFjyr0I_exPzlE1aaoj6u_ezfc_05U" alt="pic" />
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocJ1Bt3ZeWa6aSEXZ27XDnJPACyNbJhuDYHjltGN82x8cCZ3Zn63JR3wsQ3nEdWfFKK987MEKmnJMRonH-Wo2fU4RkkPVWSN=s576-c-no" alt="pic" />
             </div>
           </div>
         </div>
