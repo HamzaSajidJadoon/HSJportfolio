@@ -40,7 +40,8 @@ innovative ideas into elegantly designed, high performance applications and webs
               </a>
             </div>
             <div className="home-img padd-15">
-            <img src="/images/heroThree.png" alt="pic" />
+            {/* <img src="/images/heroThree.png" alt="pic" /> */}
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGrrZUv4xt0lQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712923876196?e=1740614400&v=beta&t=rrKte_swNmlVZCFjyr0I_exPzlE1aaoj6u_ezfc_05U" alt="pic" />
             </div>
           </div>
         </div>
