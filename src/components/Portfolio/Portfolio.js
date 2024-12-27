@@ -5,30 +5,70 @@ function Portfolio() {
   const projects = [
     {
       id: 0,
-      thumbnail: "images/dstreakpic.JPG",
+      thumbnail: "https://hblabgroup.com/wp-content/uploads/2024/09/Mobile-App-Design.jpg",
       link: "https://play.google.com/store/apps/details?id=com.drivestreak&hl=as&gl=US",
       name: "DriveStreak",
     },
     {
       id: 1,
-      thumbnail: "images/ScorpionYachtImage.JPG",
+      thumbnail: "https://hblabgroup.com/wp-content/uploads/2024/09/Mobile-App-Design.jpg",
       link: "https://play.google.com/store/apps/details?id=com.scorpionyacht&hl=as&gl=US",
       name: "Scorpion Yacht",
     },
     {
       id: 2,
-      thumbnail: "images/SupervetImage.JPG",
+      thumbnail: "https://hblabgroup.com/wp-content/uploads/2024/09/Mobile-App-Design.jpg",
       link: "https://play.google.com/store/apps/details?id=com.myall&hl=as&gl=US",
       name: "Supervet",
     },
     {
       id: 3,
-      thumbnail: "/images/NexgenImage.JPG",
+      thumbnail: "https://hblabgroup.com/wp-content/uploads/2024/09/Mobile-App-Design.jpg",
       link: "",
       name: "Nexgen",
     },
+    {
+      id: 4,
+      thumbnail: "https://hblabgroup.com/wp-content/uploads/2024/09/Mobile-App-Design.jpg",
+      link: "",
+      name: "DoctorAI",
+    },
+    {
+      id: 5,
+      thumbnail: "https://hblabgroup.com/wp-content/uploads/2024/09/Mobile-App-Design.jpg",
+      link: "",
+      name: "Thrivts",
+    },
     
   ];
+
+  // const projects = [
+  //   {
+  //     id: 0,
+  //     thumbnail: "images/dstreakpic.JPG",
+  //     link: "https://play.google.com/store/apps/details?id=com.drivestreak&hl=as&gl=US",
+  //     name: "DriveStreak",
+  //   },
+  //   {
+  //     id: 1,
+  //     thumbnail: "images/ScorpionYachtImage.JPG",
+  //     link: "https://play.google.com/store/apps/details?id=com.scorpionyacht&hl=as&gl=US",
+  //     name: "Scorpion Yacht",
+  //   },
+  //   {
+  //     id: 2,
+  //     thumbnail: "images/SupervetImage.JPG",
+  //     link: "https://play.google.com/store/apps/details?id=com.myall&hl=as&gl=US",
+  //     name: "Supervet",
+  //   },
+  //   {
+  //     id: 3,
+  //     thumbnail: "/images/NexgenImage.JPG",
+  //     link: "",
+  //     name: "Nexgen",
+  //   },
+    
+  // ];
 
   return (
     <div>
